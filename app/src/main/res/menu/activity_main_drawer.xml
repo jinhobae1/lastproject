@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/personmind"
+            android:title="홈" />
+        <item
+            android:id="@+id/print"
+            android:icon="@drawable/simpleprint"
+            android:title="간단한 그림 테스트" />
+        <item
+            android:id="@+id/simpletest"
+            android:icon="@drawable/simpleprint"
+            android:title="실생활에 유용한 심리학" />
+
+        <item
+            android:id="@+id/sentencetest"
+            android:title="문장 심리 테스트"
+            android:icon="@drawable/simpleprint"
+            />
+    </group>
+
+    <item android:title="공유하기">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="공유" />
+        </menu>
+    </item>
+
+</menu>

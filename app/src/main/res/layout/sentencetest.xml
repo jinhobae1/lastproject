@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/printtest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="314dp"
+            android:src="@drawable/sentence" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="74dp"
+            android:src="@drawable/sentencetence" />
+        <EditText
+            android:id="@+id/testtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollHorizontally="true" />
+
+        <Button
+            android:onClick="chtext"
+            android:id="@+id/changetextmean"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:text="결과 확인"
+            android:textSize="40dp" />
+    </LinearLayout>
+</FrameLayout>
